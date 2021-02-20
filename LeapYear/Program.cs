@@ -30,12 +30,12 @@ namespace LeapYear
 
         static void Main(string[] args)
         {
-            int my_Year = 1;
+            int my_Year = 1; // Setting this variable to 1 to ahave the possibility of checking the input, if input is 0, the program ends.
             while (my_Year != 0)
             {
                 Console.Write("Enter a year please: ");
                 my_Year = Convert.ToInt32(Console.ReadLine());
-                if( my_Year == 0)
+                if( my_Year == 0) //The program ends igf input is 0.
                     break;
                 if (is_leap(my_Year))
                 {
