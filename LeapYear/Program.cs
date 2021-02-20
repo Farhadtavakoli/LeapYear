@@ -26,8 +26,6 @@ namespace LeapYear
             else
                 return true;
         }
-
-
         static void Main(string[] args)
         {
             int my_Year = 1; // Setting this variable to 1 to ahave the possibility of checking the input, if input is 0, the program ends.
