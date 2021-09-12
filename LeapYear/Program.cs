@@ -41,7 +41,7 @@ namespace LeapYear
                 }
                 else
                 {
-                    Console.WriteLine($" {my_Year} is a common year");
+                    Console.WriteLine($" {my_Year}  ------is a common year --------");
                 }
             } 
             Console.ReadKey();
