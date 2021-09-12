@@ -37,7 +37,7 @@ namespace LeapYear
                     break;
                 if (is_leap(my_Year))
                 {
-                    Console.WriteLine($" {my_Year} is a leap year.");
+                    Console.WriteLine($" {my_Year}  ------  is a leap year. --------");
                 }
                 else
                 {
